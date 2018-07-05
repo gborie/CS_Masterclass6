@@ -11,17 +11,11 @@ namespace CS_Masterclass6
         static void Main(string[] args)
         {
             //Create an object of the class Human or an instance of Human
-            Human denis = new Human();
-            //access public variable from outside and even change it
-            denis.firstName = "Denis";
-            denis.lastName = "Bear";
-            //call method of the class
-            denis.IntroduceMyself();
+            Human sissy = new Human("Sissy", "Wagner", "blue", 25);
+            sissy.IntroduceMyself();
 
-            Human Michael = new Human();
-            Michael.firstName = "Mikel";
-            Michael.lastName = "Buddy";
-            Michael.IntroduceMyself();
+            Human louise = new Human("Louise", "Schmidt", "green", 30);
+            louise.IntroduceMyself();
 
             Console.ReadKey();
         }
