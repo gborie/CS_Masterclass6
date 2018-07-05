@@ -12,13 +12,15 @@ namespace CS_Masterclass6
         {
             //Create an object of the class Human or an instance of Human
             Human denis = new Human();
-            //access public variable from outside and even chnge it
+            //access public variable from outside and even change it
             denis.firstName = "Denis";
+            denis.lastName = "Bear";
             //call method of the class
             denis.IntroduceMyself();
 
             Human Michael = new Human();
             Michael.firstName = "Mikel";
+            Michael.lastName = "Buddy";
             Michael.IntroduceMyself();
 
             Console.ReadKey();

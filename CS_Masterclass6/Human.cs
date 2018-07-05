@@ -10,12 +10,13 @@ namespace CS_Masterclass6
     class Human
     {
         //member variable
-        public string firstName = "Michael";
+        public string firstName;
+        public string lastName;
 
         // member
         public void IntroduceMyself()
         {
-            Console.WriteLine("Hi, I am {0}", firstName);
+            Console.WriteLine("Hi, I am {0} {1}", firstName, lastName);
         }
 
     }
