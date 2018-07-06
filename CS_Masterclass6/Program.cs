@@ -14,8 +14,20 @@ namespace CS_Masterclass6
             Human sissy = new Human("Sissy", "Wagner", "blue", 25);
             sissy.IntroduceMyself();
 
-            Human louise = new Human("Louise", "Schmidt", "green", 30);
+            Human louise = new Human("Louise", "Schmidt", "green");
             louise.IntroduceMyself();
+
+            Human thomas = new Human("Thomas", "Muller");
+            thomas.IntroduceMyself();
+
+            Human Jurgen = new Human("Jurgen");
+            Jurgen.IntroduceMyself();
+
+            Human Jan = new Human("Jan", "lowe", 58);
+            Jan.IntroduceMyself();
+
+            Human basicHuman = new Human();
+            basicHuman.IntroduceMyself();
 
             Console.ReadKey();
         }
